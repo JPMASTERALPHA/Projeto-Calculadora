@@ -22,6 +22,11 @@ function exception(nota, notaNumerica) { // parseFloat de 12,34,56 é igual a 12
         alert("Por favor, insira um valor válido.")
         return true
     }
+    //ex : Amostra de Erro: ([-1],[10,1])
+    else if ((notaNumerica > 10) || (notaNumerica < 0)) {
+        alert("Por favor, insira um valor válido.")
+        return true
+    }
     return false
 }
 
