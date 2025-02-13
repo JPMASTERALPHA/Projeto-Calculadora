@@ -1,0 +1,72 @@
+/* Estilização Global */
+body {
+    margin: 0;
+    background-color:rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Estilização Global */
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font: 600 48px "Courier New";
+    color: white;
+
+}
+/* HEADER */
+
+/* MAIN */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 45vw;
+    padding: 25px 0px 25px;
+    border-radius: 25px;
+}
+    #inputButtonContainer {
+        width: 90%;
+        display: inline-flex;
+    }
+        p {
+            margin: 0;
+        }
+        #nota {
+            max-width: 60%;
+            margin: 0px 3px;
+        }
+        #buttonAdd {
+            
+        }
+    #memory {
+        margin-top: 15px;
+        width: 90%;
+        min-height: 200px;
+        resize: none;
+        overflow-y: scroll;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    #mediaContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+        #buttonMedia {
+            margin-top: 16px;
+            max-width: fit-content;
+        }
+        #mediaOutput {
+            margin-top: 16px;
+            margin-bottom: 0px;
+        }
+
+/* MAIN */
